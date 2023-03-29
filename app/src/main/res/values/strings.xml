@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Anggrek</string>
+    <string name="anggrek_intro">Selamat datang di Tanaman Anggrek ! Tanaman Anggrek adalah media informasi tentang jenis-jenis tanaman anggrek. </string>
+    <string name="nama_bunga">Nama Anggrek :</string>
 </resources>
