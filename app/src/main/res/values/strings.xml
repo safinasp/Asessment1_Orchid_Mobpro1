@@ -1,5 +1,15 @@
 <resources>
-    <string name="app_name">Anggrek</string>
-    <string name="anggrek_intro">Selamat datang di Tanaman Anggrek ! Tanaman Anggrek adalah media informasi tentang jenis-jenis tanaman anggrek. </string>
-    <string name="nama_bunga">Nama Anggrek :</string>
+    <string name="app_name">Orchid</string>
+    <string name="anggrek_intro">Selamat datang di Orchid !
+        Orchid adalah media informasi tentang jenis-jenis tanaman anggrek. </string>
+    <string name="inputan">Jenis Anggrek</string>
+    <string name="input_kosong">Inputan Tidak Boleh Kosong !</string>
+    <string name="input_angka">Inputan Tidak Boleh Angka ! </string>
+    <string name="anggrek_bulan">Anggrek Bulan</string>
+    <string name="anggrek_merpati">Anggrek Merpati</string>
+    <string name="anggrek_totol">Anggrek Totol</string>
+    <string name="anggrek_unguputih">Anggrek Ungu Putih</string>
+    <string name="anggrek_phalaenopsis">Anggrek Phalaenopsis</string>
+    <string name="tidak_diketahui">Jenis Anggrek tidak dikenali!</string>
+    <string name="exit_dialog">Apakah anda yakin ingin keluar?</string>
 </resources>
