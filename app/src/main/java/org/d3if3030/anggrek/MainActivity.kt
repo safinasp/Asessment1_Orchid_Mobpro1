@@ -59,37 +59,8 @@ class MainActivity : AppCompatActivity() {
             binding.namaAnggrek.text = getString(R.string.anggrek_merpati)
             binding.informasiAnggrek.text = "a. Memiliki warna putih dengan sedikit kekuningan\n" +
                     "b. Bunganya biasanya hanya bertahan sehari\n" +
-                    "c. Anggrek bulan senang dengan sedikit cahaya matahari\n" +
-                    "d. Anggrek bulan termasuk dalam tanaman anggrek monopodial "
+                    "c. Kelopak bunga berbentuk segitiga sempit dan lancip\n" +
             binding.imgAnggrek.setImageResource(R.drawable.anggrekmerpati)
-        } else if (anggrek.equals("Anggrek Totol", ignoreCase = true)) { // Anggrek Totol
-
-            // membuat layout dapat dilihat (sebelumnya diset tidak terlihat dilayout)
-            binding.namaAnggrek.isVisible = true
-            binding.informasiAnggrek.isVisible = true
-            binding.imgAnggrek.isVisible = true
-
-            // mengeset data
-            binding.namaAnggrek.text = getString(R.string.anggrek_totol)
-            binding.informasiAnggrek.text = "-Venus disebut sebagai Bintang Kejora\n" +
-                    "-Venus merupakan planet terpanas di Tata Surya\n" +
-                    "-Di Venus Matahari terbit dari barat"
-            binding.imgAnggrek.setImageResource(R.drawable.anggrektotol)
-
-        } else if (anggrek.equals("Anggrek Ungu Putih", ignoreCase = true)) { // Anggrek
-
-            // membuat layout dapat dilihat (sebelumnya diset tidak terlihat dilayout)
-            binding.namaAnggrek.isVisible = true
-            binding.informasiAnggrek.isVisible = true
-            binding.imgAnggrek.isVisible = true
-
-            // mengeset data
-            binding.namaAnggrek.text = getString(R.string.anggrek_unguputih)
-            binding.informasiAnggrek.text = "a.  Berwarna putih dengan corak kuning atau merah\n" +
-                    "b. Memiliki ciri kelopak bunga yang lebar dan berwarna putih\n" +
-                    "c. Anggrek bulan senang dengan sedikit cahaya matahari\n" +
-                    "d. Anggrek bulan termasuk dalam tanaman anggrek monopodial "
-            binding.imgAnggrek.setImageResource(R.drawable.anggrekunguputih)
 
         } else if (anggrek.equals("Anggrek Phalaenopsis", ignoreCase = true)) { // Anggrek
 
