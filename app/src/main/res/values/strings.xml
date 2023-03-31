@@ -5,10 +5,14 @@
     <string name="inputan">Jenis Anggrek</string>
     <string name="input_kosong">Inputan Tidak Boleh Kosong !</string>
     <string name="input_angka">Inputan Tidak Boleh Angka ! </string>
-    <string name="anggrek_bulan">Anggrek Bulan</string>
-    <string name="anggrek_merpati">Anggrek Merpati</string>
-    <string name="anggrek_unguputih">Anggrek Ungu Putih</string>
-    <string name="anggrek_phalaenopsis">Anggrek Phalaenopsis</string>
     <string name="tidak_diketahui">Jenis Anggrek tidak dikenali!</string>
     <string name="exit_dialog">Apakah anda yakin ingin keluar?</string>
+
+    //Jenis Anggrek
+    <string name="anggrek_bulan">Anggrek Bulan</string>
+    <string name="anggrek_merpati">Anggrek Merpati</string>
+    <string name="anggrek_phalaenopsis">Anggrek Phalaenopsis</string>
+    <string name="anggrek_bulanbintang">Anggrek Bulan Bintang</string>
+    <string name="anggrek_sendok">Anggrek Sendok</string>
+    <string name="anggrek_hitam">Anggrek Hitam</string>
 </resources>
