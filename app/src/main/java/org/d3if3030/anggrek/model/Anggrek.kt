@@ -16,5 +16,8 @@ fun OrchidEntity.cariAnggrek(): HasilAnggrek {
         R.drawable.anggrekbulan
     } else if (orchid.equals("Anggrek Hitam", ignoreCase = true)) {
         R.drawable.anggrekhitam
-    }return HasilAnggrek(orchid, informasiAnggrek, imgAnggrek)
+    }else {
+        R.drawable.anggreksendok
+    }
+    return HasilAnggrek(orchid, informasiAnggrek, imgAnggrek)
 }
