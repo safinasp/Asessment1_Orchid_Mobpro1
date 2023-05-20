@@ -35,7 +35,7 @@ fun OrchidEntity.cariAnggrek(): HasilAnggrek {
         R.drawable.anggreksendok
     }else {
         //masih bingung
-        R.drawable.anggreksendok
+        R.drawable.hati
     }
     return HasilAnggrek(orchid, informasiAnggrek, imgAnggrek)
 }
