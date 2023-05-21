@@ -8,7 +8,7 @@ import kotlinx.coroutines.withContext
 import org.d3if3030.anggrek.data.OrchidDao
 
 class HistoriViewModel(private val db: OrchidDao) : ViewModel() {
-    val data = db.getLastUniverse()
+    val data = db.getLastOrchid()
     fun hapusData() = viewModelScope.launch {
         withContext(Dispatchers.IO) {
             db.clearData()

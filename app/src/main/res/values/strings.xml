@@ -15,6 +15,8 @@
     <string name="anggrek_bulanbintang">Anggrek Bulan Bintang</string>
     <string name="anggrek_sendok">Anggrek Sendok</string>
     <string name="anggrek_hitam">Anggrek Hitam</string>
+
+    //Informasi Anggrek
     <string name="info_anggrekbulan">a. Berwarna putih dengan corak kuning atau merah\n
                     b. Memiliki ciri kelopak bunga yang lebar dan berwarna putih\n
                     c. Anggrek bulan senang dengan sedikit cahaya matahari\n
@@ -35,17 +37,19 @@
     <string name="info_anggreksendok">a. Anggrek ini memiliki bentuk yang menyerupai sendok makan\n
                     b. Bunga sendok ini didominasi oleh warna kuning muda pada bagian kelopak dengan beberapa sentuhan warna putih\n
                     c. mempunyai warna kuning dan juga coklat\n</string>
+
     <string name="input_karakter">Inputan tidak boleh Karakter !</string>
     <string name="input_combine">Inputan tidak bisa kombinasi Angka dan Karakter !</string>
     <string name="konfirmasi_hapus">Anda yakin ingin menghapus semua histori ?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="tentang_aplikasi">Orchid merupakan sebuah aplikasi Android untung membagikan sebuah informasi seputar Bunga Anggrek.\n\n Aplikasi ini dibuat untuk kelas Mobile Programing 1.\n Temukan kodenya di https://github.com/safinasp/Asessment1_Orchid_Mobpro1.git\n\n\n Copyright © 2023 Safina Sinandari Pratiwi.\nAll rights reserved. </string>
-    <string name="sumber_aplikasi"></string>
-    <string name="copyright">Copy </string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
     <string name="hapus_histori">Hapus Histori</string>
     <string name="histori">Histori Pencarian</string>
     <string name="belum_ada_data">Belum Ada Data</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="copyright">Orchid merupakan sebuah aplikasi Android untung membagikan sebuah informasi seputar Bunga Anggrek.\n\n Aplikasi ini dibuat untuk kelas Mobile Programing 1.\n Temukan kodenya di https://github.com/safinasp/Asessment1_Orchid_Mobpro1.git\n\n\n Copyright © 2023 Safina Sinandari Pratiwi.\nAll rights reserved. </string>
+    <string name="bagikan_hasil">Nama :\n %1$s\n\n Informasi Bunga :\n %2$s \n\n</string>
 </resources>

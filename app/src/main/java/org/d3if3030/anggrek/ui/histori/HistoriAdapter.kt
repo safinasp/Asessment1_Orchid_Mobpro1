@@ -55,12 +55,12 @@ class HistoriAdapter : ListAdapter<OrchidEntity, HistoriAdapter.ViewHolder>(DIFF
             val rnd = Random()
             val color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256))
 
-            val hasilUniverse = item.cariAnggrek()
-            kategoriTextView.text = hasilUniverse.namaAnggrek.substring(0, 1)
-            val circleBg = kategoriTextView.background as GradientDrawable
-            circleBg.setColor(color)
+            val hasilAnggrek = item.cariAnggrek()
+            kategoriTextView.text = hasilAnggrek.namaAnggrek.substring(0, 1)
+//            val circleBg = kategoriTextView.background as GradientDrawable
+//            circleBg.setColor(color)
             tanggalTextView.text = dateFormatter.format(Date(item.tanggal))
-            universeTextView.text = hasilUniverse.namaAnggrek
+            universeTextView.text = hasilAnggrek.namaAnggrek
         }
     }
 }

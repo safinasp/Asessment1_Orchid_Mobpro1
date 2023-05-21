@@ -9,7 +9,6 @@ import androidx.core.view.isVisible
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import org.d3if3030.anggrek.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         navController = findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
         }
+
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp()
+    }
+
     override fun onBackPressed() {
         // inisialisasi alert dialog
         val builder = AlertDialog.Builder(this)

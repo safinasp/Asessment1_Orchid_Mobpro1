@@ -20,10 +20,11 @@
     <fragment
         android:id="@+id/aboutFragment"
         android:name="org.d3if3030.anggrek.ui.about.AboutFragment"
-        android:label="fragment_about"
+        android:label="@string/tentang_aplikasi"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/historiFragment"
         android:name="org.d3if3030.anggrek.ui.histori.HistoriFragment"
-        android:label="HistoriFragment" />
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori"/>
 </navigation>

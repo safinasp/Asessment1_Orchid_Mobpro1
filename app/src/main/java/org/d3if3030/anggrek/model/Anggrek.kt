@@ -29,12 +29,11 @@ fun OrchidEntity.cariAnggrek(): HasilAnggrek {
         R.drawable.anggrekbulanbintang
     } else if (orchid.equals("Anggrek Merpati", ignoreCase = true)) {
         R.drawable.anggrekmerpati
-    } else if (orchid.equals("Anggrek Phaleonopsis", ignoreCase = true)) {
+    } else if (orchid.equals("Anggrek Phalaenopsis", ignoreCase = true)) {
         R.drawable.anggrekphalaenopsis
     } else if (orchid.equals("Anggrek Sendok", ignoreCase = true)) {
         R.drawable.anggreksendok
     }else {
-        //masih bingung
         R.drawable.hati
     }
     return HasilAnggrek(orchid, informasiAnggrek, imgAnggrek)

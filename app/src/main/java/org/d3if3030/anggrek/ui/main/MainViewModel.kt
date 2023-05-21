@@ -14,19 +14,18 @@ import org.d3if3030.anggrek.model.HasilAnggrek
 import org.d3if3030.anggrek.model.cariAnggrek
 
 class MainViewModel (private val db: OrchidDao) : ViewModel() {
-    private val hasilUniverse = MutableLiveData<HasilAnggrek?>()
+    private val hasilAnggrek = MutableLiveData<HasilAnggrek?>()
 
-    fun cariUniverse(anggrek:String) {
-        val dataUniverse = OrchidEntity(
+    fun cariAnggrek(anggrek:String) {
+        val dataAnggrek = OrchidEntity(
             namaAnggrek = anggrek
         )
-        hasilUniverse.value = dataUniverse.cariAnggrek()
+        hasilAnggrek.value = dataAnggrek.cariAnggrek()
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                db.insert(dataUniverse)
+                db.insert(dataAnggrek)
             }
         }
     }
-    fun getHasilUniverse(): LiveData<HasilAnggrek?> = hasilUniverse
-
+    fun getHasilOrchid(): LiveData<HasilAnggrek?> = hasilAnggrek
 }

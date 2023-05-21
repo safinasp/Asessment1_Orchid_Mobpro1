@@ -8,11 +8,11 @@ import androidx.room.Query
 @Dao
 interface OrchidDao {
     @Insert
-    fun insert(unniversethings: OrchidEntity)
+    fun insert(orchid: OrchidEntity)
 
-    @Query("SELECT * FROM universethings ORDER BY id DESC")
-    fun getLastUniverse(): LiveData<List<OrchidEntity>>
+    @Query("SELECT * FROM orchid ORDER BY id DESC")
+    fun getLastOrchid(): LiveData<List<OrchidEntity>>
 
-    @Query("DELETE FROM universethings")
+    @Query("DELETE FROM orchid")
     fun clearData()
 }

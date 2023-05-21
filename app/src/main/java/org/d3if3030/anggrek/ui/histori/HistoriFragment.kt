@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -12,6 +13,7 @@ import org.d3if3030.anggrek.data.OrchidDb
 import org.d3if3030.anggrek.databinding.FragmentHistoriBinding
 
 class HistoriFragment : Fragment() {
+
     private val viewModel: HistoriViewModel by lazy {
         val db = OrchidDb.getInstance(requireContext())
         val factory = HistoriViewModelFactory(db.dao)
@@ -19,13 +21,10 @@ class HistoriFragment : Fragment() {
     }
     private lateinit var binding: FragmentHistoriBinding
     private lateinit var myAdapter: HistoriAdapter
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                              savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHistoriBinding.inflate(
-            layoutInflater,
+        binding = FragmentHistoriBinding.inflate(layoutInflater,
             container, false
         )
         setHasOptionsMenu(true)
@@ -60,6 +59,7 @@ class HistoriFragment : Fragment() {
         }
         return super.onOptionsItemSelected(item)
     }
+
 //Menghapus
     private fun hapusData() {
         MaterialAlertDialogBuilder(requireContext())
