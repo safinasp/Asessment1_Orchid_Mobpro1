@@ -41,18 +41,10 @@ class MainFragment : Fragment() {
         viewModel.getHasilOrchid().observe(requireActivity()) { showResult(it) }
         binding.btnHapus.setOnClickListener { hapusAnggrek() }
         binding.shareButton.setOnClickListener { shareData() }
+
     }
     @SuppressLint("StringFormatMatches")
     private fun shareData() {
-//        val intent = Intent(Intent.ACTION_SEND)
-//        intent.type = "text/plain"
-//        intent.putExtra(Intent.EXTRA_SUBJECT, requireActivity().getString(R.string.app_name))
-//        intent.putExtra(
-//            Intent.EXTRA_TEXT,
-//            "Ketahui informasi tanaman anggrek di aplikasi Orchid"
-//        )
-//        requireActivity().startActivity(Intent.createChooser(intent, "Bagikan"))
-//    }
         val message = getString(R.string.bagikan_hasil,
             binding.namaAnggrek.text.toString(),
             binding.informasiAnggrek.text.toString()
@@ -70,6 +62,7 @@ class MainFragment : Fragment() {
         binding.imgAnggrek.isVisible = false
         binding.informasiAnggrek.setText(" ")
         binding.shareButton.isVisible = false
+        viewModel.clearHasilAnggrek()
     }
 
 

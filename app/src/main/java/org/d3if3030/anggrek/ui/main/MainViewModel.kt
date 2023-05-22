@@ -28,4 +28,8 @@ class MainViewModel (private val db: OrchidDao) : ViewModel() {
         }
     }
     fun getHasilOrchid(): LiveData<HasilAnggrek?> = hasilAnggrek
+
+    fun clearHasilAnggrek() {
+        hasilAnggrek.value = null
+    }
 }
