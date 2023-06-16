@@ -5,3 +5,9 @@ data class HasilAnggrek(
     val informasiAnggrek: Int,
     val imgAnggrek: Int
     )
+
+data class Orchid(
+    val namaanggrek: String,
+    val informasi: String,
+    val gambar: String
+)
