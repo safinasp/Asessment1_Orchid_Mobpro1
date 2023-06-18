@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_listOrchidFragment"
+            app:destination="@id/listOrchidFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -27,4 +30,8 @@
         android:name="org.d3if3030.anggrek.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_histori"/>
+    <fragment
+        android:id="@+id/listOrchidFragment"
+        android:name="org.d3if3030.anggrek.listorchid.ListOrchidFragment"
+        android:label="@string/listorchid" />
 </navigation>

@@ -13,7 +13,7 @@ fun OrchidEntity.cariAnggrek(): HasilAnggrek {
         R.string.info_anggrekbulanbintang
     } else if (orchid.equals("Anggrek Merpati", ignoreCase = true)) {
         R.string.info_anggrekmerpati
-    } else if (orchid.equals("Anggrek Phalaenopsis", ignoreCase = true)) {
+    } else if (orchid.equals("Anggrek Bulan Ungu", ignoreCase = true)) {
         R.string.info_anggrekphalaenopsis
     } else if (orchid.equals("Anggrek Sendok", ignoreCase = true)) {
         R.string.info_anggreksendok
@@ -22,17 +22,17 @@ fun OrchidEntity.cariAnggrek(): HasilAnggrek {
         R.string.tidak_diketahui
     }
     val imgAnggrek = if (orchid.equals("Anggrek Bulan", ignoreCase = true)) {
-        R.drawable.anggrekbulan
+        R.drawable.bulan
     } else if (orchid.equals("Anggrek Hitam", ignoreCase = true)) {
-        R.drawable.anggrekhitam
+        R.drawable.hitam
     } else if (orchid.equals("Anggrek Bulan Bintang", ignoreCase = true)) {
-        R.drawable.anggrekbulanbintang
+        R.drawable.bulanbintang
     } else if (orchid.equals("Anggrek Merpati", ignoreCase = true)) {
-        R.drawable.anggrekmerpati
-    } else if (orchid.equals("Anggrek Phalaenopsis", ignoreCase = true)) {
-        R.drawable.anggrekphalaenopsis
+        R.drawable.merpati
+    } else if (orchid.equals("Anggrek Bulan Ungu", ignoreCase = true)) {
+        R.drawable.bulanungu
     } else if (orchid.equals("Anggrek Sendok", ignoreCase = true)) {
-        R.drawable.anggreksendok
+        R.drawable.sendok
     }else {
         R.drawable.hati
     }

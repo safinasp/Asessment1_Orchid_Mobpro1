@@ -53,4 +53,12 @@
     <string name="copyright">Orchid merupakan sebuah aplikasi Android untuK membagikan sebuah informasi seputar Bunga Anggrek.\n\n Aplikasi ini dibuat untuk kelas Mobile Programing 1.\n Temukan kodenya di https://github.com/safinasp/Asessment1_Orchid_Mobpro1.git\n\n\n Copyright © 2023 Safina Sinandari Pratiwi.\nAll rights reserved. </string>
     <string name="bagikan_hasil">Nama :\n %1$s\n\n Informasi Bunga :\n %2$s \n\n</string>
     <string name="koneksi_error">Koneksi Error</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="action_switch_layout">Ubah Tampilan</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data Orchid !</string>
+    <string name="notif_title">Ada jenis anggrek baru !</string>
+    <string name="notif_text">Coba cek sekarang deh</string>
+    <string name="menuorchid">List Orchid</string>
+    <string name="listorchid">Daftar Nama Orchid</string>
 </resources>

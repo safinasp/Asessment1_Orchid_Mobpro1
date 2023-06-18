@@ -27,8 +27,9 @@ object OrchidApi{
     val service: OrchidApiService by lazy {
         retrofit.create(OrchidApiService::class.java)
     }
-    fun getOrchidUrl(namaanggrek: String): String {
-        return "$BASE_URL$namaanggrek"
+    fun getOrchidUrl(gambar: String): String {
+        return "$BASE_URL$gambar"
     }
 }
+
 enum class ApiStatus { LOADING, SUCCESS, FAILED }

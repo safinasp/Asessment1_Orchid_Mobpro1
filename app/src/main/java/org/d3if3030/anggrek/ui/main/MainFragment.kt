@@ -133,6 +133,10 @@ class MainFragment : Fragment() {
                 findNavController().navigate(R.id.action_mainFragment_to_aboutFragment)
                 return true
             }
+            R.id.menu_orchid -> {
+                findNavController().navigate(R.id.action_mainFragment_to_listOrchidFragment)
+                return true
+            }
         }
         return super.onOptionsItemSelected(item)
     }
